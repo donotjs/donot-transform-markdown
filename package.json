@@ -1,0 +1,24 @@
+{
+  "name": "@donotjs/donot-transform-markdown",
+  "version": "1.0.0",
+  "description": "Markdown template support for donot.",
+  "author": "Kristian Trenskow <trenskow@me.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donotjs/donot-transform-markdown"
+  },
+  "dependencies": {
+    "@donotjs/donot-transform": "^1.0.5",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "license": "MIT"
+}
